@@ -1,3 +1,3 @@
-def call(){
-  echo "hallo"
+def call() {
+  sh 'python3 --version'
 }
