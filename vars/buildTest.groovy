@@ -1,3 +1,5 @@
 def call() {
-  sh 'python3 --version'
+  stage('test phython'){
+   sh 'python3 --version' 
+  }
 }
